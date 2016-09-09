@@ -1,0 +1,29 @@
+<html>
+<body>
+<table border=1>
+<tr>
+<td> Surname </td>
+<td> Name </td>
+</tr>
+<tr>
+<td> Pupkin </td>
+<td> Vasya </td>
+</tr>
+<td>
+Любимые игры
+<ul>
+<li> Minecraft
+<li> Ferma
+</ul>
+</td>
+<td>
+Любимые числа
+<ol>
+<li> 76
+<li> 40
+</ol>
+</td>
+</table>
+I love <a href="http://vk.com/Iceblink_irl"> myself </a>
+</body>
+</html>
