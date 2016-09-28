@@ -1,0 +1,80 @@
+
+
+#4
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter x");
+            string str3 = Console.ReadLine();
+            Double x = double.Parse(str3);
+
+            Console.WriteLine("Enter y");
+            string str2= Console.ReadLine();
+            Double y = double.Parse(str2);
+
+            Console.WriteLine("Enter z");
+            string str1= Console.ReadLine();
+            Double z = double.Parse(str1);
+            if (x + y == z)
+            {
+                Console.WriteLine("х =");
+                Console.WriteLine(x);
+                
+            }
+            else
+            {
+                Console.WriteLine("х + у =");
+                Console.WriteLine(x + y);
+            }
+                Console.ReadKey();
+        }
+    }
+}
+#5
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter x");
+            string str3 = Console.ReadLine();
+            Double x = double.Parse(str3);
+
+            Console.WriteLine("Enter y");
+            string str2 = Console.ReadLine();
+            Double y = double.Parse(str2);
+
+            Console.WriteLine("Enter z");
+            string str1 = Console.ReadLine();
+            Double z = double.Parse(str1);
+            if (x + y > z)
+            {
+                Console.WriteLine("х =");
+                Console.WriteLine(x);
+
+            }
+            else
+            {
+                Console.WriteLine("х + у =");
+                Console.WriteLine(x + y);
+            }
+            Console.ReadKey();
+        }
+    }
+}
